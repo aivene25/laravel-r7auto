@@ -46,3 +46,6 @@ Route::get('/make-appointment', function(){
 });
 
 
+Route::get('/services/engine-inspection', function(){
+    return view('services.engine-inspection');
+});

@@ -8,12 +8,11 @@
     <meta name="format-detection" content="telephone=no" />
     <meta name="keywords" content="Mechanic, Car, Auto" />
     <meta name="description" content="Mechanic Auto Repair Platform" />
-    <!--slider revolution-->
-
-    <link rel="stylesheet" type="text/css" href= {{ asset("rs-plugin/css/settings.css")}}>
-    <!--style-->
+    
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,600,700,800&amp;subset=latin,latin-ext' rel='stylesheet'
         type='text/css'>
+    <link rel="stylesheet" type="text/css" href= {{ asset("rs-plugin/css/settings.css")}}>
+    <!--style-->
     <link rel="stylesheet" type="text/css" href={{ asset('style/reset.css') }}>
 
     <link rel="stylesheet" type="text/css" href= {{ asset('style/superfish.css') }}>
@@ -26,7 +25,7 @@
     <link rel="stylesheet" type="text/css" href= {{ asset('fonts/streamline-small/style.css') }}>
     <link rel="stylesheet" type="text/css" href= {{ asset('fonts/template/styles.css') }}>
     <link rel="stylesheet" type="text/css" href= {{ asset('fonts/social/styles.css') }}>
-    <link rel="stylesheet" type="text/css" href= {{ asset('images/favicon.ico') }}>
+    <link rel="icon" type="text/css" href= {{ asset('favicon.ico') }}>
     
 </head>
 
@@ -65,14 +64,13 @@
 
 <script>
     var services = [{
-            value: 'Brake repair',
+            value: 'Brake Repair',
             data: '/brake-repair'
         },
         {
-            value: 'Battery Inspection',
-            data: '/battery-inspection'
-        },
-        
+            value: 'Engine Inspection',
+            data: '/engine-inspection'
+        }
 
     ];
 
@@ -81,7 +79,7 @@
         onSelect: function (suggestion) {
             var thehtml = '<strong>Service Name:</strong> ' + suggestion.value +
                 ' <br> <strong>Symbol:</strong> ' + suggestion.data;
-            window.location = "http://localhost:8000/services" + suggestion.data;
+            window.location = window.location.href+"/services" + suggestion.data;
         }
     });
 </script>
