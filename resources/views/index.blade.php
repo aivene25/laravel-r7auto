@@ -77,14 +77,21 @@
 	.bg-text h2{
 		font-size: 33px;
 	}
+	.space-top{
+		min-height:120px;
+	}
 	@media screen and (max-width:767px){
 		#searchfield form .biginput {
 			width: 300px;
 		}
 		
-	.bg-text h2{
-		font-size: 24px;
-	}
+		.bg-text h2{
+			font-size: 24px;
+		}
+		
+		.space-top{
+			min-height:80px;
+		}
 	}
 </style>
 
@@ -92,7 +99,7 @@
 <div class="revolution-slider-container">
 	<div id='bg-img'>
 		<div class='container'>
-			<div class='row' style='min-height:150px;'>
+			<div class='row space-top'>
 
 			</div>
 			<div class='row text-center bg-text' >
@@ -135,7 +142,7 @@
 					<li class="column column-1-3">
 						<div class="vertical-align">
 							<div class="vertical-align-cell">
-								<a class="more" href="#" title="MAKE AN APPOINTMENT"><span>BOOK AN APPOINTMENT</span></a>
+								<a class="more" href="/make-appointment" title="MAKE AN APPOINTMENT"><span>BOOK AN APPOINTMENT</span></a>
 							</div>
 						</div>
 					</li>
@@ -187,13 +194,13 @@
 					</div>
 				</div>
 				<div class="align-center margin-top-67 padding-bottom-20">
-					<a class="more" href="index171c.html?page=about" title="READ MORE"><span>READ MORE</span></a>
+					<a class="more" href="#" title="READ MORE"><span>READ MORE</span></a>
 				</div>
 			</div>
 		</div>
 		<div class="row full-width gray flex-box page-margin-top-section">
 			<div class="column column-1-2 background-1">
-				<a class="flex-hide" href="indexe99e.html?page=service_engine_diagnostics" title="Tiling and Painting">
+				<a class="flex-hide" href="#" title="Tiling and Painting">
 					<img src="images/samples/960x680/image_01.jpg" alt="">
 				</a>
 			</div>
@@ -245,26 +252,26 @@
 					a wide range of car services.</p>
 				<ul class="services-list clearfix page-margin-top">
 					<li>
-						<a href="indexe99e.html?page=service_engine_diagnostics" title="Engine Diagnostics">
+						<a href="#" title="Engine Diagnostics">
 							<img src="images/samples/390x260/image_01.jpg" alt="">
 						</a>
 						<h4 class="box-header"><a href="indexe99e.html?page=service_engine_diagnostics" title="Engine Diagnostics">ENGINE DIAGNOSTICS<span class="template-arrow-menu"></span></a></h4>
 					</li>
 					<li>
-						<a href="indexa673.html?page=service_lube_oil_filters" title="Lube, Oil and Filters">
+						<a href="#" title="Lube, Oil and Filters">
 							<img src="images/samples/390x260/image_02.jpg" alt="">
 						</a>
-						<h4 class="box-header"><a href="indexa673.html?page=service_lube_oil_filters" title="Lube, Oil and Filters">LUBE, OIL AND FILTERS<span class="template-arrow-menu"></span></a></h4>
+						<h4 class="box-header"><a href="#" title="Lube, Oil and Filters">LUBE, OIL AND FILTERS<span class="template-arrow-menu"></span></a></h4>
 					</li>
 					<li>
-						<a href="indexde12.html?page=service_belts_hoses" title="Belts and Hoses">
+						<a href="#" title="Belts and Hoses">
 							<img src="images/samples/390x260/image_03.jpg" alt="">
 						</a>
 						<h4 class="box-header"><a href="indexde12.html?page=service_belts_hoses" title="Belts and Hoses">BELTS AND HOSES<span class="template-arrow-menu"></span></a></h4>
 					</li>
 				</ul>
 				<div class="align-center margin-top-40 padding-bottom-87">
-					<a class="more" href="index94f6.html?page=services" title="VIEW ALL SERVICES"><span>VIEW ALL SERVICES</span></a>
+					<a class="more" href="#" title="VIEW ALL SERVICES"><span>VIEW ALL SERVICES</span></a>
 				</div>
 			</div>
 		</div>
@@ -356,7 +363,7 @@
 		<div class="row full-width page-margin-top-section">
 			<ul class="galleries-list clearfix page-margin-top">
 				<li>
-					<a href="index7d13.html?page=gallery_tire_change" title="Tire Change">
+					<a href="#" title="Tire Change">
 						<img src="images/samples/480x320/image_07.jpg" alt="">
 					</a>
 					<div class="view align-center">
@@ -369,7 +376,7 @@
 					</div>
 				</li>
 				<li>
-					<a href="indexdc54.html?page=gallery_oil_change" title="Oil Change">
+					<a href="#" title="Oil Change">
 						<img src="images/samples/480x320/image_02.jpg" alt="">
 					</a>
 					<div class="view align-center">
@@ -382,27 +389,27 @@
 					</div>
 				</li>
 				<li>
-					<a href="indexef12.html?page=gallery_belts_hoses" title="Our Facility">
+					<a href="#" title="Our Facility">
 						<img src="images/samples/480x320/image_08.jpg" alt="">
 					</a>
 					<div class="view align-center">
 						<div class="vertical-align-table">
 							<div class="vertical-align-cell">
 								<p class="description">Our Facility</p>
-								<a class="more simple" href="indexef12.html?page=gallery_belts_hoses" title="READ MORE">READ MORE</a>
+								<a class="more simple" href="#" title="READ MORE">READ MORE</a>
 							</div>
 						</div>
 					</div>
 				</li>
 				<li>
-					<a href="indexaef0.html?page=gallery_brake_repair" title="Brakes Repair">
+					<a href="#" title="Brakes Repair">
 						<img src="images/samples/480x320/image_05.jpg" alt="">
 					</a>
 					<div class="view align-center">
 						<div class="vertical-align-table">
 							<div class="vertical-align-cell">
 								<p class="description">Brakes Repair</p>
-								<a class="more simple" href="indexaef0.html?page=gallery_brake_repair" title="READ MORE">READ MORE</a>
+								<a class="more simple" href="#" title="READ MORE">READ MORE</a>
 							</div>
 						</div>
 					</div>

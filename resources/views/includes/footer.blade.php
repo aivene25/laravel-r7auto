@@ -76,6 +76,7 @@
                 <li><a href="#" title="TRANSMISSION">TRANSMISSION</a></li>
             </ul>
         </div>
+        <!--
         <div class="column column-1-4">
             <h6 class="box-header">HOURS</h6>
             <ul class="list simple margin-top-20">
@@ -88,6 +89,7 @@
                 <li><span>Sunday:</span>Closed</li>
             </ul>
         </div>
+        -->
     </div>
 </div>
 <div class="row align-center padding-top-bottom-30">
