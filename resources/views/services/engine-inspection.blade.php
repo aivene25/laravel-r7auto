@@ -83,7 +83,7 @@
                         <div class="sl-small-percent"></div>
                     </div>
                     <h4 class="margin-top-58">ONLINE APPOINTMENT</h4>
-                    <p class="description">Book your appointment now and get $5 discount.</p>
+                    <p class="description">Book your appointment now and get 5% discount.</p>
                     <a class="more" href="/make-appointment" title="MAKE APPOINTMENT"><span>MAKE APPOINTMENT</span></a>
                 </div>
                 <h6 class="box-header page-margin-top">DOWNLOAD</h6>
