@@ -42,7 +42,7 @@
 	<div class="vertical-align-table column-1-1">
 		<div class="header clearfix">
 			<div class="logo vertical-align-cell">
-				<img src= {{ asset( "images/r7logo.jpg")}} width>
+				<img src= {{ asset( "images/r7auto-logo.png")}} width>
 			</div>
 			<a href="#" class="mobile-menu-switch vertical-align-cell">
 							<span class="line"></span>
