@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="{{ app()->getLocale() }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../css/app.css">
+    <script src="https://unpkg.com/vue"></script>
+    <script src="../js/jquery-3.2.1.js"></script>
+    <script src="../js/jquery.autocomplete.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-strap/1.1.37/vue-strap.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+    <title>Professional Autorepair Mechanics - R7Auto</title>
+    <style>
+            .autocomplete-suggestions {
+                border: 1px solid;
+                background: #fff;
+                cursor: default;
+                overflow: auto;
+            }
+        
+            .autocomplete-suggestion {
+                padding: 10px 5px;
+                font-size: 1.2em;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+        
+            .autocomplete-selected {
+                background: #f0f0f0;
+            }
+        
+            .autocomplete-suggestions strong {
+                font-weight: normal;
+                color: #3399ff;
+            }
+        
+            #searchfield {
+                display: block;
+                width: 100%;
+                text-align: center;
+                margin-bottom: 35px;
+            }
+        
+                #searchfield form {
+                    display: inline-block;
+                    
+                    padding: 0;
+                    margin: 0;
+                    
+                    border-radius: 3px;
+                    
+                }
+        
+                    #searchfield form .biginput {
+                        width: 300px;
+                        height: 60px;
+                        padding: 0 10px 0 10px;
+                        border-radius: 3px;
+                        color: #aeaeae;
+                        font-weight: normal;
+                        font-size: 1.5em;
+                        -webkit-transition: all 0.2s linear;
+                        -moz-transition: all 0.2s linear;
+                        transition: all 0.2s linear;
+                    }
+        
+                        #searchfield form .biginput:focus {
+                            color: #858585;
+                        }
+        </style>
+        
+        
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h3>H5 tags go here</h3>
+    </div>
+    <div id="searchfield">
+        <form>
+            <input type="text" name="services" id="autocomplete" class="biginput" placeholder="Search for services .." />
+        </form>
+
+
+        <div id="outputbox">
+            <p id="outputcontent"></p>
+
+        </div>
+
+    </div>
+
+
+    <script>
+        var services = [{
+                value: 'Brake Replacement',
+                data: '/battery-replacement'
+            },
+            {
+                value: 'Battery Inspection',
+                data: '/battery-is-dead-inspection'
+            },
+            {
+                value: 'Brake Pad Replacement',
+                data: '/brake-pad-replacement'
+            },
+
+        ];
+
+        $('#autocomplete').autocomplete({
+            lookup: services,
+            onSelect: function (suggestion) {
+                var thehtml = '<strong>Service Name:</strong> ' + suggestion.value +
+                    ' <br> <strong>Symbol:</strong> ' + suggestion.data;
+                window.location = "http://localhost:8000/services" + suggestion.data;
+            }
+        });
+    </script>
+</body>
+
+</html>
