@@ -11,7 +11,7 @@
 	}
 
 	.autocomplete-suggestion {
-		padding: 10px 5px;
+		padding: 20px 5px;
 		font-size: 1.2em;
 		white-space: nowrap;
 		overflow: hidden;
@@ -35,10 +35,8 @@
 
 	#searchfield form {
 		display: inline-block;
-
 		padding: 0;
 		margin: 0;
-
 		border-radius: 3px;
 	}
 
@@ -49,7 +47,7 @@
 		border-radius: 3px;
 		color: #aeaeae;
 		font-weight: normal;
-		font-size: 1.5em;
+		font-size: 1.2em;
 		-webkit-transition: all 0.2s linear;
 		-moz-transition: all 0.2s linear;
 		transition: all 0.2s linear;
@@ -64,7 +62,7 @@
 		background-repeat: no-repeat;
 		background-position: center;
 		width: 100vw;
-		height: 40em;
+		height: 35em;
 	}
 	.text-center{
 		text-align:center;
@@ -76,10 +74,17 @@
 		color:#717171 !important;
 		padding-bottom:20px;
 	}
+	.bg-text h2{
+		font-size: 33px;
+	}
 	@media screen and (max-width:767px){
 		#searchfield form .biginput {
 			width: 300px;
 		}
+		
+	.bg-text h2{
+		font-size: 24px;
+	}
 	}
 </style>
 
@@ -92,7 +97,7 @@
 			</div>
 			<div class='row text-center bg-text' >
 
-				<h2 style='color:black'>Service at your home or office <br>Fair and transparent pricing</h2>
+				<h2 style='color:black' class='box-header'>Service at your home or office <br>Fair and transparent pricing</h2>
 			</div>
 			<div class='row'>
 
@@ -140,7 +145,7 @@
 		<div class="row page-margin-top-section">
 			<div class="row">
 				<h2 class="box-header">WHY CHOOSE US?</h2>
-				<p class="description align-center">We are one of the leading auto repair shops serving customers in Tucson.<br>All mechanic services are performed by highly
+				<p class="description align-center">We are one of the leading auto repair shops serving customers in Nigeria.<br>All mechanic services are performed by highly
 					qualified mechanics.</p>
 				<div class="row page-margin-top">
 					<div class="column column-1-3">
@@ -274,8 +279,7 @@
 						<p>"I have taken several of the family cars here for the past several years and without exception the experiences have
 							been outstanding. I would highly recommend this place to any one who wants great service, honest value, and really
 							great people."</p>
-						<h6>ROBERT SMITH</h6>
-						<!--<div class="author-details">CEO OF NEW PORT COMPANY</div>-->
+						<h6>Johnson Ademuliyi</h6>
 					</li>
 					<li>
 						<div class="hexagon small">
@@ -284,19 +288,10 @@
 						<p>"I have taken several of the family cars here for the past several years and without exception the experiences have
 							been outstanding. I would highly recommend this place to any one who wants great service, honest value, and really
 							great people."</p>
-						<h6>ROBERT SMITH</h6>
-						<!--<div class="author-details">CEO OF NEW PORT COMPANY</div>-->
+						<h6>Temitayo Hakeem</h6>
+						
 					</li>
-					<li>
-						<div class="hexagon small">
-							<div class="sl-small-pen"></div>
-						</div>
-						<p>"I have taken several of the family cars here for the past several years and without exception the experiences have
-							been outstanding. I would highly recommend this place to any one who wants great service, honest value, and really
-							great people."</p>
-						<h6>ROBERT SMITH</h6>
-						<!--<div class="author-details">CEO OF NEW PORT COMPANY</div>-->
-					</li>
+					
 				</ul>
 				<a href="#" class="slider-control right template-arrow-left-1"></a>
 			</div>
@@ -367,7 +362,7 @@
 					<div class="view align-center">
 						<div class="vertical-align-table">
 							<div class="vertical-align-cell">
-								<p class="description">Tire Change</p>
+								<p class="description">Tyre Change</p>
 								<a class="more simple" href="index7d13.html?page=gallery_tire_change" title="READ MORE">READ MORE</a>
 							</div>
 						</div>
@@ -414,10 +409,6 @@
 				</li>
 			</ul>
 		</div>
-		<div class="row gray full-width padding-top-54 padding-bottom-61 align-center">
-			<h3><span class="button-label">DO YOU LIKE WHAT YOU SEE</span> <a class="more" target="_top" href="https://themeforest.net/cart/add_items?item_ids=12332985&amp;ref=QuanticaLabs"
-				    title="PURCHASE TEMPLATE"><span>PURCHASE TEMPLATE</span></a></h3>
-		</div>
 		<!--<div class="row gray full-width padding-top-bottom-50">
 			<div class="row">
 				<div class="column column-1-2 align-right padding-top-7">
@@ -436,7 +427,7 @@
 				<p>We offer a full range of garage services to vehicle owners in Tucson. Our professionals know how to handle a wide range
 					of car services. Whether you drive a passenger car or medium sized truck or SUV, our mechanics strive to <a href="#">ensure that your vehicle</a>					will be performing at its best <a href="#">before leaving</a> our car shop.</p>
 				<div class="page-margin-top">
-					<a class="more" href="index171c.html?page=about" title="READ MORE"><span>READ MORE</span></a>
+					<a class="more" href="#" title="READ MORE"><span>READ MORE</span></a>
 				</div>
 			</div>
 			<div class="column column-1-2">

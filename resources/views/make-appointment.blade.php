@@ -14,7 +14,7 @@
             </div>
         </div>
         <div class="row page-margin-top">
-            <form class="contact-form cost-calculator-container" id="contact-form" method="post" action="http://quanticalabs.com/Carservice/Template/contact_form/contact_form.php">
+            <form class="contact-form cost-calculator-container" id="contact-form" method="post" action="">
                 <div class="row">
                     <fieldset class="column column-1-3">
                         <div class="cost-calculator-box clearfix">
