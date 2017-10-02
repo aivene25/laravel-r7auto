@@ -1,5 +1,10 @@
 @extends('layouts.head') @section('content') @include('includes.header')
 
+ul.default{
+    list-style-type:square;
+    margin:0;
+    padding:0;
+}
 
 <div class="theme-page">
     <div class="row gray full-width page-header vertical-align-table">
@@ -111,15 +116,79 @@
                 </div>
                 <div class="row page-margin-top">
                     <div class="column-1-1">
-                        <h3 class="box-header">SERVICE OVERVIEW</h3>
-                        <p class="margin-top-20">We offer a full range of garage services to vehicle owners in Nigeria. Our professionals know how
-                            to handle a wide range of car services. Whether you drive a passenger car or medium sized truck
-                            or SUV, our mechanics strive to ensure that your vehicle will be performing at its best before
-                            leaving our car shop. We can help you with everything from an oil change to an engine change.
-                            We can handle any problem on both foreign and domestic vehicles.</p>
-                        <p>Our professionals know how to handle a wide range of car services. Whether you drive a passenger
-                            car or medium sized truck or SUV, our mechanics strive to ensure that your vehicle will be performing
-                            at its best.</p>
+                        <h3 class="box-header">BRAKE REPAIR SERVICE</h3><br><br>
+                        <h4>What is the brake repair service all about</h4>
+                        <p class='margin-top-20'>
+                            Your engine control module monitors and regulates nearly all of your engine’s performance based on temperature measurements.
+                            During cold conditions or cold starts, the engine requires more fuel to run well and maintain
+                            a higher idle speed. When the engine is warm, less fuel is required for the engine to run smoothly
+                            and efficiently. There are a couple of methods car makers have utilized to determine engine temperature,
+                            with the most common being a coolant temperature sensor.
+                        </p>
+                        <p>
+                            The coolant temperature sensor regularly monitors the engine’s heat based on the temperature of the fluid circulating in
+                            the block and reports it to the engine control module. The ECM adjusts EGR flow, engine timing
+                            and many other things based on this information. For vehicles not equipped with a coolant temperature
+                            sensor, a cylinder head temperature sensor, or CHT sensor, is employed. It consists of two resistors
+                            encapsulated in one sensor to maintain a wide operating temperature of -40F to 260F. One resistor
+                            monitors the high temperatures and the other, the low temperatures, and reports them in a voltage
+                            reading to the ECM. From this reading, the engine control module infers the coolant temperature
+                            and bases its adjustments on it. If the CHT sensor isn’t reading correct voltages, you can experience
+                            issues ranging from long cranking times and low idle speeds on cold starts to stalling and hesitation
+                            on acceleration while the engine is warm.
+                        </p>
+                        <div class='padding-bottom-30'>
+                            <h4>Keep in mind:</h4>
+                            <ul class='list default margin-top-20'>
+                                <li class=''> The cylinder head temperature sensor doesn’t measure the coolant temperature. Instead, it
+                                    measures the metal temperature and infers the coolant temperature from that.</li>
+                                <li class=''> Allow the engine to cool off before servicing the cylinder head temperature sensor.</li>
+
+                            </ul>
+
+                        </div>
+                        <div class='padding-bottom-30'>
+                            <h4>How it's done</h4>
+                            <ul class='list default margin-top-20'>
+                                <li> The cylinder head temperature sensor is verified that it needs to be replaced. The rubber
+                                    head seal and connector are removed to access the sensor.</li>
+                                <li> The defective cylinder head temperature sensor is removed with a deep well socket to unscrew
+                                    the sensor from the cylinder head.</li>
+                                <li> The new cylinder head temperature sensor is installed into the head and tightened to specifications.
+                                </li>
+                                <li> The electrical connection and rubber seal are reinstalled. The cylinder head temperature
+                                    sensor is tested for operation with a scanner.</li>
+                                <li> The vehicle is road tested to ensure proper operation of the cylinder head temperature sensor.</li>
+                            </ul>
+                        </div>
+                        <div class='padding-bottom-30'>
+                            <h4>Our recommendation</h4>
+                            <p>
+                                The CHT sensor should last the life of your vehicle. It is an electrical component and can fail unexpectedly, and if it does,
+                                it will need to be replaced by one of our expert technicians. If you suspect you have a CHT
+                                sensor problem, have a trained technician diagnose the problem as monitoring the sensor is
+                                tricky and requires certain knowledge.
+                            </p>
+                        </div>
+                        <div class='padding-bottom-30'>
+                            <h4>What common symptoms indicate you may need to replace the Cylinder Head Temperature Sensor?
+                            </h4>
+                            <ul class='list default margin-top-20'>
+                                <li>Long cranking time when trying to start your engine</li>
+                                <li> Difficulty with accelerating </li>
+                                <li> Engine stalling when at running temperature or when started cold</li>
+                                <li> Idle speed when the engine is cold stays very low</li>
+                            </ul>
+                        </div>
+                        <div >
+                            <h4>How important is this service? </h4>
+                            <p>
+                                The cylinder head temperature sensor can dramatically affect your engine’s performance if it is faulty. It may cause running
+                                issues while you are driving in traffic including stalling and hesitation. Have it diagnosed
+                                and repaired as soon as possible so you don’t put yourself in a potentially difficult or
+                                dangerous driving situation.
+                            </p>
+                        </div>
                         <h3 class="box-header page-margin-top">PRICING</h3>
                         <table class="margin-top-40">
                             <tbody>
@@ -161,6 +230,8 @@
                             <li class="template-bullet">Same day service for most repairs and maintenance</li>
                             <li class="template-bullet">We get the job done right — all the time</li>
                         </ul>
+                        <br>
+                        <h4>Fast and easy Cylinder Head Temperature Sensor Replacement service at your home or office.</h4>
                         <div style='margin-top:60px'>
                             <a class="more" href="/make-appointment" title="MAKE APPOINTMENT"><span>MAKE APPOINTMENT</span></a>
 

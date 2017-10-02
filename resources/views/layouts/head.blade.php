@@ -39,6 +39,8 @@
 <script type="text/javascript" src= {{ asset('js/jquery-3.2.1.js') }}></script>
 <script type="text/javascript" src= {{ asset('js/jquery-migrate-1.4.1.min.js') }}></script>
 <script type="text/javascript" src= {{ asset('js/jquery.autocomplete.js') }}></script>
+
+
 <script type="text/javascript" src= {{ asset('js/jquery.ba-bbq.min.js') }}></script>
 <script type="text/javascript" src= {{ asset('js/jquery-ui-1.11.4.custom.min.js') }}></script>
 <script type="text/javascript" src= {{ asset('js/jquery.ui.touch-punch.min.js') }}></script>
@@ -53,10 +55,12 @@
 <script type="text/javascript" src= {{ asset('js/jquery.prettyPhoto.js') }}></script>
 <script type="text/javascript" src= {{ asset('js/jquery.qtip.min.js') }}></script>
 <script type="text/javascript" src= {{ asset('js/jquery.blockUI.min.js') }}></script>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyA2LLXoPbK_YPWDdpwgHaG3-PFYl6KiWhI"></script>
-<script type="text/javascript" src= {{ asset('js/main.js') }}> </script>
-<script type="text/javascript" src= {{ asset('js/odometer.min.js') }}></script>
 
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyA2LLXoPbK_YPWDdpwgHaG3-PFYl6KiWhI"></script>
+
+<script type="text/javascript" src= {{ asset('js/main.js') }}> </script>
+<!--<script type="text/javascript" src= {{ asset('js/odometer.min.js') }}></script>
+-->
 
 <!--slider revolution-->
 <script type="text/javascript" src= {{ asset("rs-plugin/js/jquery.themepunch.tools.min.js")}}></script>
