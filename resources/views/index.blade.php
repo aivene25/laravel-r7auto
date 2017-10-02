@@ -98,7 +98,7 @@
 
 				<div id="searchfield">
 					<form>
-						<input type="text" name="services" id="autocomplete" class="biginput form-control" placeholder="Search for reparir service .." autofocus />
+						<input type="text" name="services" id="autocomplete" class="biginput form-control" placeholder="Search for repair service .." autofocus />
 					</form>
 
 
