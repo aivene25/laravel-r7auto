@@ -45,6 +45,10 @@ Route::get('/make-appointment', function(){
     return view('make-appointment');
 });
 
+Route::get('/blog',function(){
+    return view('blog');
+});
+
 
 Route::get('/services/engine-inspection', function(){
     return view('services.engine-inspection');
