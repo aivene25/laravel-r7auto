@@ -24,7 +24,7 @@
 		</div>
 		<ul class="social-icons">
 			<li>
-				<a target="_blank" href="http://facebook.com/r7auto" class="social-facebook" title="Facebook"></a>
+				<a target="_blank" href="http://facebook.com/r7autoservices" class="social-facebook" title="Facebook"></a>
 			</li>
 			<li>
 				<a target="_blank" href="https://twitter.com/r7auto" class="social-twitter" title="Twitter"></a>
@@ -42,7 +42,7 @@
 	<div class="vertical-align-table column-1-1">
 		<div class="header clearfix">
 			<div class="logo vertical-align-cell">
-				<img src= {{ asset( "images/r7auto-logo.png")}}>
+				<img src="images/r7auto-logo.png">
 			</div>
 			<a href="#" class="mobile-menu-switch vertical-align-cell">
 				<span class="line"></span>

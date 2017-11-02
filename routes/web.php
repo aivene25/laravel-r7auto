@@ -49,6 +49,14 @@ Route::get('/blog',function(){
     return view('blog');
 });
 
+Route::get('/about',function(){
+    return view('about');
+});
+
+Route::get('/contact',function(){
+    return view('contact');
+});
+
 
 Route::get('/services/engine-inspection', function(){
     return view('services.engine-inspection');
