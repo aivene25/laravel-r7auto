@@ -135,13 +135,12 @@
                         <div class="hexagon small">
                             <div class="sl-small-pen"></div>
                         </div>
-                        <p>"I have taken several of the family cars here for the past several years and without exception the
-                            experiences have been outstanding. I would highly recommend this place to any one who wants great
-                            service, honest value, and really great people."</p>
-                        <h6>Jide Alabi</h6>
-                        <div class="author-details">Sales represenatative Naij</div>
+                        <p>"We believe greatly in the development of everyone to become professionals and guarantee  a great and stress free service to all our clients making the happy and safe."</p>
+                        <h6>Olamide Odusola</h6>
+                        <div class="author-details">Founder R7Auto</div>
                     </li>
-                    <li>
+                    <!--
+                        <li>
                         <div class="hexagon small">
                             <div class="sl-small-pen"></div>
                         </div>
@@ -161,6 +160,7 @@
                         <h6>Oluwatobi James</h6>
                         <div class="author-details">Customers service XYZ limited</div>
                     </li>
+                    -->
                 </ul>
                 <a href="#" class="slider-control right template-arrow-left-1"></a>
             </div>
