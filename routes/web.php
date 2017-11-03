@@ -61,3 +61,7 @@ Route::get('/contact',function(){
 Route::get('/services/engine-inspection', function(){
     return view('services.engine-inspection');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
