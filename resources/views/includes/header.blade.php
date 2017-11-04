@@ -41,8 +41,10 @@
 	<!--<div class="header-container sticky">-->
 	<div class="vertical-align-table column-1-1">
 		<div class="header clearfix">
-			<div class="logo vertical-align-cell">
-				<img src="images/r7auto-logo.png">
+			<div class="logo vertical-align-cell">	
+				<a href="/">
+					<img src="images/r7auto-logo.png">
+				</a>
 			</div>
 			<a href="#" class="mobile-menu-switch vertical-align-cell">
 				<span class="line"></span>
@@ -53,7 +55,7 @@
 				<nav>
 					<ul class="sf-menu">
 						<li class='selected'>
-							<a href="#" title="Home">
+							<a href="/" title="Home">
 								Home
 							</a>
 						</li>
