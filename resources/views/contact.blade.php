@@ -2,9 +2,6 @@
 @section('content') 
 @include('includes.header')
 
-
-
-
 <div class="theme-page padding-bottom-66">
 	<div class="row gray full-width page-header vertical-align-table">
 		<div class="row full-width padding-top-bottom-50 vertical-align-cell">
@@ -147,6 +144,5 @@
 	</div>
 </div>			
 
-
-
-@include('includes.footer') @endsection
+@include('includes.footer') 
+@endsection

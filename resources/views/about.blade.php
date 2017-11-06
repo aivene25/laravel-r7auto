@@ -135,7 +135,7 @@
                         <div class="hexagon small">
                             <div class="sl-small-pen"></div>
                         </div>
-                        <p>"We believe greatly in the development of everyone to become professionals and guarantee  a great and stress free service to all our clients making the happy and safe."</p>
+                        <p>"We believe greatly in the development of every stakeholder to become professionals and guarantee  a great and stress free service to all our clients making them happy and safe."</p>
                         <h6>Olamide Odusola</h6>
                         <div class="author-details">Founder R7Auto</div>
                     </li>
@@ -168,23 +168,20 @@
         <div class="row page-margin-top-section padding-bottom-66">
             <div class="row">
                 <h2 class="box-header">COMPANY OVERVIEW</h2>
-                <p class="description align-center">We can help you with everything from an oil change to an engine change.
-                    <br>We can handle any problem on both foreign and domestic vehicles.</p>
+                <p class="description align-center">We help you with everything relating to an auto mobile from car service to repairs and other services affecting the car. <br> We have trained professionals and guarantee you safety.</p>
             </div>
             <div class="row page-margin-top-section">
                 <div class="column column-1-3">
                     <ul class="features-list">
                         <li>
-                            <h5>CAR AUDIO SERVICE</h5>
+                            <h5>CAR VEHICLE SERVICE</h5>
                             <div class="icon sl-small-car-audio"></div>
-                            <p>Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec
-                                elite maecenas modern forte elementum vehicula.</p>
+                            <p>We help with car servicing, creating a maintenance culture for your car. Giving it a long life spam and enjoying the value of the vehicle.</p>
                         </li>
                         <li>
-                            <h5>CAR A/C RECHARGE</h5>
+                            <h5>CAR SPARE PARTS</h5>
                             <div class="icon sl-small-air-conditioning"></div>
-                            <p>Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec
-                                elite maecenas modern forte elementum vehicula.</p>
+                            <p>We offer an e-commerce sales of cars spare part from genuine dealers. Our site is opened to search for car parts at highly discounted rate..</p>
                         </li>
                     </ul>
                 </div>
@@ -193,14 +190,12 @@
                         <li>
                             <h5>FREE OIL CHANGE</h5>
                             <div class="icon sl-small-car-oil"></div>
-                            <p>Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec
-                                elite maecenas modern forte elementum vehicula.</p>
+                            <p>We offer free oil change to all our registered members as part of the freebies they get being a loyal registered member.</p>
                         </li>
                         <li>
-                            <h5>PARKING SENSORS CALIBRATION</h5>
+                            <h5>BLOG AND CAR INFORMATION</h5>
                             <div class="icon sl-small-parking-sensor"></div>
-                            <p>Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec
-                                elite maecenas modern forte elementum vehicula.</p>
+                            <p>We offer professional information on cars and auto news. We aim at enlighten our clients and customer with everything affecting automobile.</p>
                         </li>
                     </ul>
                 </div>
@@ -209,8 +204,7 @@
                         <li>
                             <h5>ENGINE DIAGNOSTICS</h5>
                             <div class="icon sl-small-signal-warning"></div>
-                            <p>Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec
-                                elite maecenas modern forte elementum vehicula.</p>
+                            <p>We run diagnostics service to inform our clients of the their car issues and give the best repair advise on fixing such issues.</p>
                         </li>
                         <li>
                             <h5>CAR BATTERY REPAIRS</h5>
