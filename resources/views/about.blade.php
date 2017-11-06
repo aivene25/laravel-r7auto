@@ -176,7 +176,7 @@
                         <li>
                             <h5>CAR VEHICLE SERVICE</h5>
                             <div class="icon sl-small-car-audio"></div>
-                            <p>We help with car servicing, creating a maintenance culture for your car. Giving it a long life spam and enjoying the value of the vehicle.</p>
+                            <p>We help with car servicing, creating a maintenance culture for you and giving your car a long life spam by enjoying its value.</p>
                         </li>
                         <li>
                             <h5>CAR SPARE PARTS</h5>
@@ -207,10 +207,9 @@
                             <p>We run diagnostics service to inform our clients of the their car issues and give the best repair advise on fixing such issues.</p>
                         </li>
                         <li>
-                            <h5>CAR BATTERY REPAIRS</h5>
+                            <h5>OTHER CAR SERVICES</h5>
                             <div class="icon sl-small-car-battery"></div>
-                            <p>Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec
-                                elite maecenas modern forte elementum vehicula.</p>
+                            <p>We offer other services ranging from car sales and auction, car insurance, vehicle documentation, license process, driving schools and many more.</p>
                         </li>
                     </ul>
                 </div>
