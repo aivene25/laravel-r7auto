@@ -108,8 +108,8 @@
 							</a>
 						</li>
 						<li class="left-flyout">
-							<a href="/contact" title="Contact">
-								Contact
+							<a href="/pricing" title="Contact">
+								Pricing
 							</a>
 
 						</li>
@@ -179,8 +179,8 @@
 								</a>
 							</li>
 							<li class="left-flyout">
-								<a href="/contact" title="Contact">
-									Contact
+								<a href="/pricing" title="Contact">
+									Pricing
 								</a>
 							</li>
 							<li class="left-flyout">

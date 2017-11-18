@@ -26,7 +26,7 @@ ul.default{
                                 &#47;
                             </li>
                             <li>
-                                <a title="Our Services" href="index94f6.html?page=services">
+                                <a title="Our Services" href="#">
 									OUR SERVICES
 								</a>
                             </li>
