@@ -60,42 +60,10 @@
 							</a>
 						</li>
 						<li>
-							<a href="#" title="Services">
+							<a href="/" title="Services">
 								Services
 							</a>
-							<ul>
-								<li>
-									<a href="#" title="Engine Diagnostics">
-										Engine Diagnostics
-									</a>
-								</li>
-								<li>
-									<a href="#" title="Lube, Oil and Filters">
-										Lube, Oil and Filters
-									</a>
-								</li>
-								<li>
-									<a href="#" title="Belts and Hoses">
-										Belts and Hoses
-									</a>
-								</li>
-								<li>
-									<a href="#" title="Air Conditioning">
-										Air Conditioning
-									</a>
-								</li>
-								<li>
-									<a href="#" title="Brake Repair">
-										Brake Repair
-									</a>
-								</li>
-								<li>
-									<a href="#" title="Tire and Wheel Services">
-										Tire and Wheel Services
-									</a>
-								</li>
-							</ul>
-						</li>
+													</li>
 
 						<li>
 							<a href="/blog" title="Blog">
@@ -135,38 +103,7 @@
 									Services
 								</a>
 								<a href="#" class="template-arrow-menu"></a>
-								<ul>
-									<li>
-										<a href="indexe99e.html?page=service_engine_diagnostics" title="Engine Diagnostics">
-											Engine Diagnostics
-										</a>
-									</li>
-									<li>
-										<a href="indexa673.html?page=service_lube_oil_filters" title="Lube, Oil and Filters">
-											Lube, Oil and Filters
-										</a>
-									</li>
-									<li>
-										<a href="indexde12.html?page=service_belts_hoses" title="Belts and Hoses">
-											Belts and Hoses
-										</a>
-									</li>
-									<li>
-										<a href="index9812.html?page=service_air_conditioning" title="Air Conditioning">
-											Air Conditioning
-										</a>
-									</li>
-									<li>
-										<a href="index9950.html?page=service_brake_repair" title="Brake Repair">
-											Brake Repair
-										</a>
-									</li>
-									<li>
-										<a href="index0f40.html?page=service_tire_wheel" title="Tire and Wheel Services">
-											Tire and Wheel Services
-										</a>
-									</li>
-								</ul>
+								
 							</li>
 							<li>
 								<a href="/blog" title="Blog">
