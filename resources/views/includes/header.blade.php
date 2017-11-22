@@ -60,7 +60,7 @@
 							</a>
 						</li>
 						<li>
-							<a href="/" title="Services">
+							<a href="#" title="Services">
 								Services
 							</a>
 													</li>
@@ -94,12 +94,12 @@
 					<nav>
 						<ul class="mobile-menu collapsible-mobile-submenus">
 							<li class='selected'>
-								<a href="index9ba3.html?page=home" title="Home">
+								<a href="#" title="Home">
 									Home
 								</a>
 							</li>
 							<li>
-								<a href="index94f6.html?page=services" title="Services">
+								<a href="#" title="Services">
 									Services
 								</a>
 								<a href="#" class="template-arrow-menu"></a>
