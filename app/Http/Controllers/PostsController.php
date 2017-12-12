@@ -23,6 +23,11 @@ class PostsController extends Controller
         return view('posts.index')->with('posts',$posts);
         
     }
+    public function blog(){
+        $posts =  Posts::all();
+        return view('blog')->with('posts',$posts);
+        
+    }
 
     /**
      * Show the form for creating a new resource.
@@ -63,9 +68,13 @@ class PostsController extends Controller
         $post->tags = "Economy";
         $post->post_image = $fileNameToStore;
 
-        $post->save();
+        if($post->save() == true){
+            return view('success');
+        }
+        else{
+            return "Error try again";
+        }
 
-        return $fileNameToStore;
     }
 
     /**
@@ -87,7 +96,8 @@ class PostsController extends Controller
      */
     public function edit($id)
     {
-        //
+        $post = Posts::find($id);
+        return view('posts.edit')->with('post',$post);
     }
 
     /**
@@ -110,6 +120,10 @@ class PostsController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $post = Posts::find($id);
+        $post->delete();
+        return 'post deleted';
+        //return redirect('/posts')->with('success','Post removed');
+        
     }
 }

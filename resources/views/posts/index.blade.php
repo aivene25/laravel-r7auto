@@ -20,7 +20,8 @@
                     @if( count($posts)>0 ) @foreach( $posts as $post )
                     <tr>
                         <td>
-                            <img src="https://s3.eu-west-2.amazonaws.com/aiveneshero/public/post_images/{{ $post->post_image}}" style="height:100px; width:100px;" />
+                            <img src="https://s3.eu-west-2.amazonaws.com/aiveneshero/public/post_images/{{ $post->post_image}}" style="height:100px; width:100px;"
+                            />
                         </td>
                         <td>
                             <h5 class="m-0">{{ $post->title}}</h5>
@@ -29,14 +30,24 @@
                         <td>{{ $post->category}}</td>
                         <td>{{ $post->created_at}}</td>
                         <td>
-
-                            <button class="btn btn-primary waves-effect waves-light"  style="width:100%">EDIT</button>
-
+                            <a href="{{ route('posts.edit', $post->id)}}">
+                                <button class="btn btn-primary waves-effect waves-light" style="width:100%">EDIT</button>
+                            </a>
                         </td>
                         <td>
-                            <button class="btn btn-primary waves-effect waves-light" data-toggle="modal" data-target=".bs-example-modal-lg" style="width:100%; background-color:red !important; color:red;">DELETE</button>
+                            <form method="POST" action="{{ route('posts.destroy', $post->id )}}" onsubmit="event.preventDefault()" id="form">
+                                {{ csrf_field() }} {{ method_field('DELETE') }}
+
+                                <input name="_method" type="hidden" value="PATCH">
+
+                                <button class="btn btn-primary waves-effect waves-light" type="submit" data-toggle="modal" data-target=".bs-example-modal-lg"
+                                    style="width:100%; background-color:red !important; color:red;">DELETE</button>
+                            </form>
+
                         </td>
                     </tr>
+
+
                     @endforeach @else
                     <p>No Posts Found </p>
                     @endif
@@ -67,7 +78,8 @@
             </div>
             <div class="modal-body" style="text-align:center; margin:10px 0px 10px px ;">
                 <div style="margin-left:10px; display:inline-block;">
-                    <button class="btn btn-lg btn-danger" style="width:100px; margin-left:10px;">YES</button>
+                    <button class="btn btn-lg btn-danger" style="width:100px; margin-left:10px;" onclick="submit()">YES</button>
+
                 </div>
                 <div style="display:inline-block;">
                     <button class="btn btn-lg btn-primary " style="width:100px" type="button" data-dismiss="modal" aria-hidden="true">NO</button>
@@ -79,7 +91,11 @@
     </div>
     <!-- /.modal-dialog -->
 </div>
+
 <!-- /.modal -->
+<script>
+    function submit() {
+        document.getElementById('form').submit();
 
-
-@include('includes.admin-footer') @endsection
+    }
+</script> @include('includes.admin-footer') @endsection

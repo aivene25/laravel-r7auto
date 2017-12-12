@@ -43,9 +43,7 @@ Route::get('/make-appointment', function(){
     return view('make-appointment');
 });
 
-Route::get('/blog',function(){
-    return view('blog');
-});
+Route::get('/blog', 'PostsController@blog');
 
 Route::get('/about',function(){
     return view('about');

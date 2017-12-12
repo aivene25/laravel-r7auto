@@ -150,91 +150,33 @@
 			</div>
 			<div class="column column-3-4">
 				<ul class="blog clearfix">
+				@if( count($posts)>0 ) @foreach( $posts as $post )
 					<li>
-						<a href="indexb878.html?page=post" title="Time To Change Your Winter Tires" class="post-image">
-							<img src="images/samples/870x580/image_07.jpg" alt="">
+						<a href="" title="{{ $post->title}}" class="post-image">
+							<img src="https://s3.eu-west-2.amazonaws.com/aiveneshero/public/post_images/{{ $post->post_image}}" alt="Post Image"  style="width:100%">
 						</a>
 						<div class="post-content-details-container clearfix">
 							<ul class="post-content-details">
-								<li>April 25, 2015</li>
-								<li>By <a href="#" title="Kevin Smith">Kevin Smith</a></li>
+								<li>{{ $post->created_at}}</li>
+								<li>By <a href="#" title="{{ $post->created_at}}">{{ $post->author}}</a></li>
 								<li>In <a href="#" title="Engine">Engine</a>, <a href="#" title="Transmission">Transmission</a></li>
 							</ul>
 							<ul class="post-content-details right">
-								<li class="template-bubble"><a href="indexb878.html?page=post#comments-list" title="5 comments">5</a></li>
+								<li class="template-bubble"><a href="#" title="5 comments">5</a></li>
 								<li class="template-eye">2 325</li>
 							</ul>
 						</div>
-						<h3 class="box-header"><a href="indexb878.html?page=post">TIME TO CHANGE YOUR WINTER TIRES</a></h3>
-						<p>Paetos dignissim at cursus elefeind norma arcu. Pellentesque mode accumsan est in tempus, etos at ullamcorper suscipit lacus maecenas tortor. Erates vitae node metus. Suspendisse est gravida ornare. Non mattis morbi suspendisse velit rutrum a modest tortor velim gravida maecenas forte vehicula etos pulvinar. Modest retrum a sante elite.</p>
+						<h3 class="box-header"><a href="#">{{ $post->title}}</a></h3>
+						<p>{{ $post->description}}</p>
 						<div class="row margin-top-40 padding-bottom-20">
-							<a class="more" href="indexb878.html?page=post" title="READ MORE"><span>READ MORE</span></a>
+							<a class="more" href="#" title="READ MORE"><span>READ MORE</span></a>
 						</div>
 					</li>
-					<!-- another layout
-					<li>
-						<a href="?page=post" title="What a Difference a Few Months Make" class="post-image">
-								<img src="images/samples/870x580/image_10.jpg" alt="">
-							</a>
-						<ul class="post-details">
-							<li class="date template-calendar">Apr<h2>25</h2>2015</li>
-							<li class="template-eye">2 325</li>
-							<li class="template-bubble"><a href="?page=post#comments-list" title="5 comments">5</a></li>
-						</ul>
-						<div class="post-content">
-							<h3 class="box-header"><a href="?page=post">TIME TO CHANGE YOUR WINTER TIRES</a></h3>
-							<p>Paetos dignissim at cursus elefeind norma arcu. Pellentesque mode accumsan est in tempus, etos at quamtu ullamcorper suscipit lacus maecenas tortor. Erates vitae node metus. Suspendisse est gravida ornare. Mattis non morbi suspendisse velit rutrum modest a tortor velim pellentesque.</p>
-							<ul class="post-content-details clearfix">
-								<li>By <a href="#" title="Kevin Smith">Kevin Smith</a></li>
-								<li>In <a href="#" title="Engine">Engine</a>, <a href="#" title="Transmission">Transmission</a></li>
-							</ul>
-							<div class="row padding-top-54 padding-bottom-20">
-								<a class="more" href="?page=post" title="READ MORE">READ MORE</a>
-							</div>
-						</div>
-					</li>-->
-					<li>
-						<a href="indexb878.html?page=post" title="Clunking Sound Under The Hood" class="post-image">
-							<img src="images/samples/870x580/image_09.jpg" alt="">
-						</a>
-						<div class="post-content-details-container clearfix">
-							<ul class="post-content-details">
-								<li>April 25, 2015</li>
-								<li>By <a href="#" title="Kevin Smith">Kevin Smith</a></li>
-								<li>In <a href="#" title="Engine">Engine</a>, <a href="#" title="Transmission">Transmission</a></li>
-							</ul>
-							<ul class="post-content-details right">
-								<li class="template-bubble"><a href="indexb878.html?page=post#comments-list" title="5 comments">5</a></li>
-								<li class="template-eye">2 325</li>
-							</ul>
-						</div>
-						<h3 class="box-header"><a href="indexb878.html?page=post">CLUNKING SOUND UNDER THE HOOD</a></h3>
-						<p>Paetos dignissim at cursus elefeind norma arcu. Pellentesque mode accumsan est in tempus, etos at ullamcorper suscipit lacus maecenas tortor. Erates vitae node metus. Suspendisse est gravida ornare. Non mattis morbi suspendisse velit rutrum a modest tortor velim gravida maecenas forte vehicula etos pulvinar. Modest retrum a sante elite.</p>
-						<div class="row margin-top-40 padding-bottom-20">
-							<a class="more" href="indexb878.html?page=post" title="READ MORE"><span>READ MORE</span></a>
-						</div>
-					</li>
-					<li>
-						<a href="indexb878.html?page=post" title="Replacing a Timing Belt Service Cost" class="post-image">
-							<img src="images/samples/870x580/image_10.jpg" alt="">
-						</a>
-						<div class="post-content-details-container clearfix">
-							<ul class="post-content-details">
-								<li>April 17, 2015</li>
-								<li>By <a href="#" title="Kevin Smith">Kevin Smith</a></li>
-								<li>In <a href="#" title="Engine">Engine</a>, <a href="#" title="Transmission">Transmission</a></li>
-							</ul>
-							<ul class="post-content-details right">
-								<li class="template-bubble"><a href="indexb878.html?page=post#comments-list" title="5 comments">5</a></li>
-								<li class="template-eye">2 325</li>
-							</ul>
-						</div>
-						<h3 class="box-header"><a href="indexb878.html?page=post">REPLACING A TIMING BELT SERVICE COST</a></h3>
-						<p>Paetos dignissim at cursus elefeind norma arcu. Pellentesque mode accumsan est in tempus, etos at ullamcorper suscipit lacus maecenas tortor. Erates vitae node metus. Suspendisse est gravida ornare. Non mattis morbi suspendisse velit rutrum a modest tortor velim gravida maecenas forte vehicula etos pulvinar. Modest retrum a sante elite.</p>
-						<div class="row margin-top-40 padding-bottom-20">
-							<a class="more" href="indexb878.html?page=post" title="READ MORE"><span>READ MORE</span></a>
-						</div>
-					</li>
+
+                    @endforeach @else
+                    <p>No Posts Found </p>
+                    @endif
+					
 				</ul>
 				<ul class="pagination page-margin-top">
 					<li class="left">
