@@ -3,7 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\Posts;
+use Auth;
 class PostsController extends Controller
 {
     /**
@@ -11,8 +12,15 @@ class PostsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function __construct(){
+        $this->middleware('auth');
+    }
+
     public function index()
     {
+        //$posts = Post::orderBy('created_at','desc')->paginate(10)->get();
+        $posts =  Posts::all();
+        return view('posts.index')->with('posts',$posts);
         
     }
 
@@ -23,7 +31,7 @@ class PostsController extends Controller
      */
     public function create()
     {
-        //
+        return view('posts.create');
     }
 
     /**
@@ -34,7 +42,30 @@ class PostsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
+        if($request->hasFile('post_image') ){
+            $filenameWithExt = $request->file('post_image')->getClientOriginalName();
+            $filename = pathinfo($filenameWithExt , PATHINFO_FILENAME);
+            $extension = $request->file('post_image')->getClientOriginalExtension();
+            $fileNameToStore = $filename.'_'.time().'.'.$extension;
+            $path = $request->file('post_image')->storeAs('public/post_images', $fileNameToStore,'s3');
+
+        }else{
+            $fileNameToStore = "noimage.jpg";
+
+        }
+
+        $post = new Posts;
+        $post->title = $request->title;
+        $post->body = $request->body;
+        $post->author = Auth::user()->name;
+        $post->category = "News";
+        $post->tags = "Economy";
+        $post->post_image = $fileNameToStore;
+
+        $post->save();
+
+        return $fileNameToStore;
     }
 
     /**

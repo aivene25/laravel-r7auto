@@ -130,6 +130,7 @@ Route::get('/services/abs-fluid--level-sensor-replacement', function(){
 });
 
 //check vaccumm brake booster and check valve replacement 
+Route::resource('posts', 'PostsController');
 
 Auth::routes();
 
