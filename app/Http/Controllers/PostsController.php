@@ -13,7 +13,7 @@ class PostsController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function __construct(){
-        $this->middleware('auth');
+        $this->middleware('auth', ['except' => 'blog']);
     }
 
     public function index()
@@ -24,6 +24,7 @@ class PostsController extends Controller
         
     }
     public function blog(){
+        $this->middleware('guest');
         $posts =  Posts::all();
         return view('blog')->with('posts',$posts);
         

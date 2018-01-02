@@ -15,7 +15,7 @@
 						<label>YOU ARE HERE:</label>
 						<ul class="bread-crumb">
 							<li>
-								<a title="HOME" href="index9ba3.html?page=home">
+								<a title="HOME" href="/">
 									HOME
 								</a>
 							</li>
@@ -39,8 +39,9 @@
 						<div class="hexagon small"><div class="sl-small-percent"></div></div>
 						<h4 class="margin-top-58">ONLINE APPOINTMENT</h4>
 						<p class="description">Book your appointment now and get $5 discount.</p>
-						<a class="more" href="index1cdc.html?page=appointment" title="MAKE APPOINTMENT"><span>MAKE APPOINTMENT</span></a>
+						<a class="more" href="/make-appointment" title="MAKE APPOINTMENT"><span>MAKE APPOINTMENT</span></a>
 					</div>
+					<!--
 					<h6 class="box-header page-margin-top">LATEST POSTS</h6>
 					<ul class="blog small margin-top-30 clearfix">
 						<li>
@@ -55,7 +56,7 @@
 							</div>
 						</li>
 						<li>
-							<a href="indexb878.html?page=post" title="Signs Your Car Needs Engine Repair" class="post-image">
+							<a href="#" title="Signs Your Car Needs Engine Repair" class="post-image">
 								<img src="images/samples/90x90/image_02.jpg" alt="">
 							</a>
 							<div class="post-content">
@@ -66,7 +67,7 @@
 							</div>
 						</li>
 						<li>
-							<a href="indexb878.html?page=post" title="Replacing a Timing Belt Service Cost" class="post-image">
+							<a href="#" title="Replacing a Timing Belt Service Cost" class="post-image">
 								<img src="images/samples/90x90/image_03.jpg" alt="">
 							</a>
 							<div class="post-content">
@@ -80,7 +81,7 @@
 					<h6 class="box-header page-margin-top">MOST VIEWED</h6>
 					<ul class="blog small margin-top-30 clearfix">
 						<li>
-							<a href="indexb878.html?page=post" title="Summer Driving Safety Tips" class="post-image">
+							<a href="#" title="Summer Driving Safety Tips" class="post-image">
 								<img src="images/samples/90x90/image_05.jpg" alt="">
 							</a>
 							<div class="post-content">
@@ -91,7 +92,7 @@
 							</div>
 						</li>
 						<li>
-							<a href="indexb878.html?page=post" title="Extend The Life of Your Engine" class="post-image">
+							<a href="#" title="Extend The Life of Your Engine" class="post-image">
 								<img src="images/samples/90x90/image_08.jpg" alt="">
 							</a>
 							<div class="post-content">
@@ -102,7 +103,7 @@
 							</div>
 						</li>
 						<li>
-							<a href="indexb878.html?page=post" title="Clunking Sound Under The Hood" class="post-image">
+							<a href="#" title="Clunking Sound Under The Hood" class="post-image">
 								<img src="images/samples/90x90/image_01.jpg" alt="">
 							</a>
 							<div class="post-content">
@@ -113,8 +114,7 @@
 							</div>
 						</li>
 					</ul>
-					<h6 class="box-header page-margin-top">TEXT WIDGET</h6>
-					<p class="margin-top-10">Here is a text widget settings ipsum lore tora dolor sit amet velum. Maecenas est velum, gravida <a href="#">vehicula dolor</a>.</p>
+				-->
 					<h6 class="box-header page-margin-top">CATEGORIES</h6>
 					<ul class="taxonomies margin-top-30 clearfix">
 						<li><a href="index9d96.html?page=category&amp;cat=belts" title="BELTS">BELTS</a></li>
@@ -129,23 +129,7 @@
 						<li><a href="index978b.html?page=category&amp;cat=tires" title="TIRES">TIRES</a></li>
 						<li><a href="index2db2.html?page=category&amp;cat=transmission" title="TRANSMISSION">TRANSMISSION</a></li>
 					</ul>
-					<h6 class="box-header page-margin-top">ARCHIVES</h6>
-					<ul class="taxonomies full-width margin-top-30 clearfix">
-						<li><a href="#" title="April 2015">APRIL 2015<span>2</span></a></li>
-						<li><a href="#" title="March 2015">MARCH 2015<span>5</span></a></li>
-					</ul>
-					<h6 class="box-header page-margin-top">TAGS</h6>
-					<ul class="taxonomies margin-top-30 clearfix">
-						<li><a href="#" title="ART">ART</a></li>
-						<li><a href="#" title="BUSINESS">BUSINESS</a></li>
-						<li><a href="#" title="DESIGN">DESIGN</a></li>
-						<li><a href="#" title="EDUCATION">EDUCATION</a></li>
-						<li><a href="#" title="LIFESTYLE">LIFESTYLE</a></li>
-						<li><a href="#" title="PHOTOGRAPHY">PHOTOGRAPHY</a></li>
-						<li><a href="#" title="POLITICS">POLITICS</a></li>
-						<li><a href="#" title="POSTER">POSTER</a></li>
-						<li><a href="#" title="TRENDS">TRENDS</a></li>
-					</ul>
+					
 				</div>
 			</div>
 			<div class="column column-3-4">
