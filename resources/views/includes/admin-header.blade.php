@@ -6,9 +6,9 @@
                     <div class="logo">
                         <!-- Text Logo -->
                         <!--<a href="index.html" class="logo">-->
-                            <!--Zircos-->
+                            <!--s-->
                         <!--</a>-->
-                        <!-- Image Logo -->
+                        <!-- Ie Logo -->
                         <a href="index.html" class="logo">
                             <img src="assets/images/logo.png" alt="" height="30">
                         </a>
