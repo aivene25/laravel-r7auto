@@ -104,7 +104,7 @@
 			</div>
 			<div class='row text-center bg-text' >
 
-				<h2 style='color:black' class='box-header'>Service by Qudus  home or office <br>Fair and transparent pricing</h2>
+				<h2 style='color:black' class='box-header'>Service at home or office <br>Fair and transparent pricing</h2>
 			</div>
 			<div class='row'>
 

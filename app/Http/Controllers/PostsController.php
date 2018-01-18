@@ -50,11 +50,11 @@ class PostsController extends Controller
     {
 
         if($request->hasFile('post_image') ){
-            $filenameWithExt = $request->file('post_image')->getClientOriginalName();
-            $filename = pathinfo($filenameWithExt , PATHINFO_FILENAME);
-            $extension = $request->file('post_image')->getClientOriginalExtension();
-            $fileNameToStore = $filename.'_'.time().'.'.$extension;
-            $path = $request->file('post_image')->storeAs('public/post_images', $fileNameToStore,'s3');
+            //$filenameWithExt = $request->file('post_image')->getClientOriginalName();
+            //$filename = pathinfo($filenameWithExt , PATHINFO_FILENAME);
+            //$extension = $request->file('post_image')->getClientOriginalExtension();
+            //$fileNameToStore = $filename.'_'.time().'.'.$extension;
+            //$path = $request->file('post_image')->storeAs('public/post_images', $fileNameToStore,'s3');
 
         }else{
             $fileNameToStore = "noimage.jpg";
