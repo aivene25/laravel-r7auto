@@ -137,7 +137,7 @@
 				@if( count($posts)>0 ) @foreach( $posts as $post )
 					<li>
 						<a href="" title="{{ $post->title}}" class="post-image">
-							<img src="https://s3.eu-west-2.amazonaws.com/aiveneshero/public/post_images/{{ $post->post_image}}" alt="Post Image"  style="width:100%">
+							<img src="{{ $post->post_image}}" alt="Post Image"  style="width:100%">
 						</a>
 						<div class="post-content-details-container clearfix">
 							<ul class="post-content-details">
