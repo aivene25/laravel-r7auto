@@ -176,6 +176,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        'JD\Cloudder\CloudderServiceProvider',
 
     ],
 
@@ -199,6 +200,7 @@ return [
         'Broadcast' => Illuminate\Support\Facades\Broadcast::class,
         'Bus' => Illuminate\Support\Facades\Bus::class,
         'Cache' => Illuminate\Support\Facades\Cache::class,
+        'Cloudder' => 'JD\Cloudder\Facades\Cloudder',
         'Config' => Illuminate\Support\Facades\Config::class,
         'Cookie' => Illuminate\Support\Facades\Cookie::class,
         'Crypt' => Illuminate\Support\Facades\Crypt::class,

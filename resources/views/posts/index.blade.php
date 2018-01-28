@@ -20,7 +20,7 @@
                     @if( count($posts)>0 ) @foreach( $posts as $post )
                     <tr>
                         <td>
-                            <img src="https://s3.eu-west-2.amazonaws.com/aiveneshero/public/post_images/{{ $post->post_image}}" style="height:100px; width:100px;"
+                            <img src="{{ $post->post_image}}" style="height:100px; width:100px;"
                             />
                         </td>
                         <td>

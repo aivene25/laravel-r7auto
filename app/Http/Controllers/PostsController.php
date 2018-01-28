@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Posts;
 use Auth;
+
 class PostsController extends Controller
 {
     /**
@@ -12,22 +13,24 @@ class PostsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function __construct(){
+    public function __construct()
+    {
         $this->middleware('auth', ['except' => 'blog']);
     }
 
     public function index()
     {
         //$posts = Post::orderBy('created_at','desc')->paginate(10)->get();
-        $posts =  Posts::all();
-        return view('posts.index')->with('posts',$posts);
-        
+        $posts = Posts::all();
+        return view('posts.index')->with('posts', $posts);
+
     }
-    public function blog(){
+    public function blog()
+    {
         $this->middleware('guest');
-        $posts =  Posts::all();
-        return view('blog')->with('posts',$posts);
-        
+        $posts = Posts::all();
+        return view('blog')->with('posts', $posts);
+
     }
 
     /**
@@ -49,31 +52,29 @@ class PostsController extends Controller
     public function store(Request $request)
     {
 
-        if($request->hasFile('post_image') ){
-            //$filenameWithExt = $request->file('post_image')->getClientOriginalName();
-            //$filename = pathinfo($filenameWithExt , PATHINFO_FILENAME);
-            //$extension = $request->file('post_image')->getClientOriginalExtension();
-            //$fileNameToStore = $filename.'_'.time().'.'.$extension;
-            //$path = $request->file('post_image')->storeAs('public/post_images', $fileNameToStore,'s3');
+        if ($request->hasFile('post_image')) {
 
-        }else{
-            $fileNameToStore = "noimage.jpg";
+            \Cloudder::upload($request->file('post_image'));
+            $c = \Cloudder::getResult();
 
-        }
+            if ($c) {
+                $post = new Posts;
+                $post->title = $request->title;
+                $post->body = $request->body;
+                $post->author = Auth::user()->name;
+                $post->category = "News";
+                $post->tags = "Economy";
+                $post->post_image = $c['url'];
 
-        $post = new Posts;
-        $post->title = $request->title;
-        $post->body = $request->body;
-        $post->author = Auth::user()->name;
-        $post->category = "News";
-        $post->tags = "Economy";
-        $post->post_image = $fileNameToStore;
-
-        if($post->save() == true){
-            return view('success');
+                if ($post->save() == true) {
+                    return view('success');
+                } else {
+                    return "Error try again";
+                }
+            }
         }
         else{
-            return "Error try again";
+            return "Kinldy put in an image";
         }
 
     }
@@ -98,7 +99,7 @@ class PostsController extends Controller
     public function edit($id)
     {
         $post = Posts::find($id);
-        return view('posts.edit')->with('post',$post);
+        return view('posts.edit')->with('post', $post);
     }
 
     /**
@@ -125,6 +126,6 @@ class PostsController extends Controller
         $post->delete();
         return 'post deleted';
         //return redirect('/posts')->with('success','Post removed');
-        
+
     }
 }
