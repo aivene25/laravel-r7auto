@@ -120,7 +120,7 @@ class PostsController extends Controller
     public function destroy($id)
     {
         Posts::find($id)->delete();
-        return view('success');
+        return view('post-remove-success');
         //return redirect('/posts')->with('success','Post removed');
 
     }
