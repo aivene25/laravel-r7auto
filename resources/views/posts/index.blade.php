@@ -38,10 +38,8 @@
                         </td>
                         <td>
                             <form method="POST" action="{{ route('posts.destroy', $post->id )}}" onsubmit="event.preventDefault()" id="form">
-                                {{ csrf_field() }} {{ method_field('DELETE') }}
-
-                                <input name="_method" type="hidden" value="PATCH">
-
+                                {{ csrf_field() }} 
+                                {{ method_field('DELETE') }}
                                 <button class="btn btn-primary waves-effect waves-light" type="submit" data-toggle="modal" data-target=".bs-example-modal-lg"
                                     style="width:100%; background-color:red !important; color:red;">DELETE</button>
                             </form>
