@@ -12,6 +12,7 @@
                         <th></th>
                         <th>Title</th>
                         <th>Author</th>
+                        <th>Description</th>
                         <th>Category</th>
                         <th>Published Date</th>
                     </tr>
@@ -27,6 +28,7 @@
                             <h5 class="m-0">{{ $post->title}}</h5>
                         </td>
                         <td>{{ $post->author }}</td>
+                        <td>{{ $post->body }}</td> 
                         <td>{{ $post->category}}</td>
                         <td>{{ $post->created_at}}</td>
                         <td>

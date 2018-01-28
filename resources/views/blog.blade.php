@@ -147,11 +147,11 @@
 							</ul>
 							<ul class="post-content-details right">
 								<li class="template-bubble"><a href="#" title="5 comments">5</a></li>
-								<li class="template-eye">2 325</li>
+								<li class="template-eye">325</li>
 							</ul>
 						</div>
 						<h3 class="box-header"><a href="#">{{ $post->title}}</a></h3>
-						<p>{{ $post->description}}</p>
+						<p>{{ $post->body}}</p>
 						<div class="row margin-top-40 padding-bottom-20">
 							<a class="more" href="#" title="READ MORE"><span>READ MORE</span></a>
 						</div>
@@ -162,6 +162,7 @@
                     @endif
 					
 				</ul>
+				<!--
 				<ul class="pagination page-margin-top">
 					<li class="left">
 						<a href="#" title="" class="template-arrow-left-1">&nbsp;</a>
@@ -185,6 +186,7 @@
 						<a href="#" title="" class="template-arrow-left-1">&nbsp;</a>
 					</li>
 				</ul>
+-->
 			</div>
 		</div>
 	</div>

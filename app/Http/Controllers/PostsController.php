@@ -20,17 +20,16 @@ class PostsController extends Controller
 
     public function index()
     {
-        //$posts = Post::orderBy('created_at','desc')->paginate(10)->get();
-        $posts = Posts::all();
+        $posts = Posts::orderBy('created_at','desc')->paginate(10);
+        //$posts = Posts::all();
         return view('posts.index')->with('posts', $posts);
 
     }
     public function blog()
     {
         $this->middleware('guest');
-        $posts = Posts::all();
+        $posts = Posts::orderBy('created_at','desc')->paginate(10);
         return view('blog')->with('posts', $posts);
-
     }
 
     /**
@@ -51,9 +50,7 @@ class PostsController extends Controller
      */
     public function store(Request $request)
     {
-
         if ($request->hasFile('post_image')) {
-
             \Cloudder::upload($request->file('post_image'));
             $c = \Cloudder::getResult();
 
@@ -63,7 +60,7 @@ class PostsController extends Controller
                 $post->body = $request->body;
                 $post->author = Auth::user()->name;
                 $post->category = "News";
-                $post->tags = "Economy";
+                $post->tags = "AUtomobiles";
                 $post->post_image = $c['url'];
 
                 if ($post->save() == true) {
@@ -74,7 +71,7 @@ class PostsController extends Controller
             }
         }
         else{
-            return "Kinldy put in an image";
+            return "Kinldy put in a post image";
         }
 
     }
