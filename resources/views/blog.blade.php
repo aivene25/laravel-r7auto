@@ -151,7 +151,7 @@
 							</ul>
 						</div>
 						<h3 class="box-header"><a href="#">{{ $post->title}}</a></h3>
-						<p>{{ $post->body}}</p>
+						<p>{!! $post->body !!}</p>
 						<div class="row margin-top-40 padding-bottom-20">
 							<a class="more" href="#" title="READ MORE"><span>READ MORE</span></a>
 						</div>
