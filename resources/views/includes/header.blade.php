@@ -60,8 +60,8 @@
 							</a>
 						</li>
 						<li>
-							<a href="#" title="Services">
-								Services
+							<a href="http://shop.r7auto.com" title="Shop">
+								Shop
 							</a>
 													</li>
 

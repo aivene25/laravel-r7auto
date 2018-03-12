@@ -95,7 +95,8 @@
 	}
 </style>
 
-
+<!--
+	Former search and view image and form
 <div class="revolution-slider-container">
 	<div id='bg-img'>
 		<div class='container'>
@@ -124,7 +125,7 @@
 		</div>
 	</div>
 </div>
-
+-->
 <!--/-->
 
 <div class="theme-page">
@@ -135,25 +136,27 @@
 					<li class="column column-2-3">
 						<div class="vertical-align">
 							<div class="vertical-align-cell">
-								<h3>BOOK AN APPOINTMENT WITH US NOW</h3>
+								<h3>GET YOUR GENUINE SPARE PARTS</h3>
 							</div>
 						</div>
 					</li>
 					<li class="column column-1-3">
 						<div class="vertical-align">
 							<div class="vertical-align-cell">
-								<a class="more" href="/make-appointment" title="MAKE AN APPOINTMENT"><span>BOOK AN APPOINTMENT</span></a>
+								<a class="more" href="http://shop.r7auto.com" title="SHOP HERE"><span>HERE</span></a>
 							</div>
 						</div>
 					</li>
 				</ul>
 			</div>
 		</div>
+
+		
 		<div class="row page-margin-top-section">
 			<div class="row">
 				<h2 class="box-header">WHY CHOOSE US?</h2>
 				<p class="description align-center">We are one of the leading auto repair shops serving customers in Nigeria.<br>All mechanic services are performed by highly
-					qualified mechanics.</p>
+					qualified mechanics and all parts sold are genuine at lowest prices</p>
 				<div class="row page-margin-top">
 					<div class="column column-1-3">
 						<ul class="features-list big">
@@ -173,9 +176,8 @@
 								<div class="hexagon">
 									<div class="sl-small-wrench-screwdriver"></div>
 								</div>
-								<h4 class="box-header page-margin-top">BEST MATERIALS</h4>
-								<p>We have invested in all the latest specialist tools and diagnostic software that is specifically tailored for the
-									software in your vehicle.</p>
+								<h4 class="box-header page-margin-top">GENUINE MATERIALS</h4>
+								<p>We have invested in all the latest specialist tools and parts that are specifically tailored for your vehicle.</p>
 							</li>
 						</ul>
 					</div>
@@ -186,15 +188,14 @@
 									<div class="sl-small-truck-tow"></div>
 								</div>
 								<h4 class="box-header page-margin-top">PROFESSIONAL STANDARDS</h4>
-								<p>Our auto repair shop is capable of servicing a variety of models. We only do the work that is needed to fix your
-									problem.
+								<p>Our auto repair shop is capable of servicing a variety of models. We only do the work that is needed to fix you problem.
 								</p>
 							</li>
 						</ul>
 					</div>
 				</div>
 				<div class="align-center margin-top-67 padding-bottom-20">
-					<a class="more" href="#" title="READ MORE"><span>READ MORE</span></a>
+					<a class="more" href="http://shop.r7auto.com" title="SHOP"><span>VISIT OUR STORE</span></a>
 				</div>
 			</div>
 		</div>
@@ -315,14 +316,12 @@
 						<li>
 							<h5>CAR AUDIO SERVICE</h5>
 							<div class="icon sl-small-car-audio"></div>
-							<p>Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec elite maecenas modern
-								forte elementum vehicula.</p>
+							<p></p>
 						</li>
 						<li>
 							<h5>CAR A/C RECHARGE</h5>
 							<div class="icon sl-small-air-conditioning"></div>
-							<p>Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec elite maecenas modern
-								forte elementum vehicula.</p>
+							<p></p>
 						</li>
 					</ul>
 				</div>
@@ -331,14 +330,12 @@
 						<li>
 							<h5>FREE OIL CHANGE</h5>
 							<div class="icon sl-small-car-oil"></div>
-							<p>Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec elite maecenas modern
-								forte elementum vehicula.</p>
+							<p></p>
 						</li>
 						<li>
 							<h5>PARKING SENSORS CALIBRATION</h5>
 							<div class="icon sl-small-parking-sensor"></div>
-							<p>Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec elite maecenas modern
-								forte elementum vehicula.</p>
+							<p>.</p>
 						</li>
 					</ul>
 				</div>
@@ -347,14 +344,12 @@
 						<li>
 							<h5>ENGINE DIAGNOSTICS</h5>
 							<div class="icon sl-small-signal-warning"></div>
-							<p>Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec elite maecenas modern
-								forte elementum vehicula.</p>
+							<p></p>
 						</li>
 						<li>
 							<h5>CAR BATTERY REPAIRS</h5>
 							<div class="icon sl-small-car-battery"></div>
-							<p>Services consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec elite maecenas modern
-								forte elementum vehicula.</p>
+							<p></p>
 						</li>
 					</ul>
 				</div>
@@ -370,7 +365,7 @@
 						<div class="vertical-align-table">
 							<div class="vertical-align-cell">
 								<p class="description">Tyre Change</p>
-								<a class="more simple" href="index7d13.html?page=gallery_tire_change" title="READ MORE">READ MORE</a>
+								<a class="more simple" href="#" title="READ MORE">READ MORE</a>
 							</div>
 						</div>
 					</div>
@@ -383,7 +378,7 @@
 						<div class="vertical-align-table">
 							<div class="vertical-align-cell">
 								<p class="description">Oil Change</p>
-								<a class="more simple" href="indexdc54.html?page=gallery_oil_change" title="READ MORE">READ MORE</a>
+								<a class="more simple" href="#" title="READ MORE">READ MORE</a>
 							</div>
 						</div>
 					</div>
@@ -466,6 +461,7 @@
 		</div>
 		<div class="row full-width top-border page-margin-top-section padding-bottom-50">
 			<div class="row">
+				<!--
 				<div class="our-clients-list-container page-margin-top">
 					<ul class="our-clients-list">
 						<li>
@@ -519,6 +515,7 @@
 					</ul>
 					<div class="our-clients-pagination"></div>
 				</div>
+-->
 			</div>
 		</div>
 	</div>
